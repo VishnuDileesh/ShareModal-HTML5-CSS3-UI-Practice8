@@ -14,3 +14,89 @@ body {
   height: 100vh;
   font-family: "Poppins", sans-serif;
 }
+
+.card {
+  background-color: white;
+  min-width: 400px;
+  border-radius: 10px;
+  padding: 20px 60px;
+  position: relative;
+  text-align: center;
+  box-shadow: 5px 5px 10px #474b50;
+}
+
+.close-btn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 1.5rem;
+  color: #636364;
+  cursor: pointer;
+}
+
+h1 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #0b0d0d;
+  margin-top: 2em;
+}
+
+p {
+  font-size: 0.8rem;
+  color: #636364;
+  margin-top: 0.6em;
+}
+
+.social-btns {
+  margin: 3em 0 1.8em 0;
+  display: flex;
+}
+
+.social-btns a {
+  color: white;
+  text-decoration: none;
+  padding: 0.5em;
+  border-radius: 5px;
+  margin: 0 0.5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 140px;
+}
+
+.fb {
+  background-color: #405896;
+}
+
+.twitter {
+  background-color: #1da1f2;
+}
+
+.reddit {
+  background-color: #000000;
+}
+
+.logo-icon {
+  color: white;
+  margin-right: 0.5em;
+}
+
+.s-ion-icon {
+  fill: white;
+}
+
+h3 {
+  font-size: 1rem;
+  color: #0b0d0d;
+  margin-bottom: 2em;
+}
+
+h3 span {
+  font-weight: 300;
+}
+
+.close-link {
+  color: #d8774d;
+  font-size: 0.8rem;
+  text-decoration: none;
+}
